@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Embeds</title>
+    <style>
+        /* Add Bootstrap CSS styles here */
+        @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+        /* Add custom CSS styles here */
+        iframe.embedded-looker {
+            width: 100%;
+            height: 750px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Test: Embeds de Looker</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4" style="background-color: #CCC;">
+                <!-- Content for column 1 -->
+                <iframe class="embedded-looker" src="https://lookerstudio.google.com/embed/reporting/bca46301-d2a3-4eff-b438-0527a56ecb4f/page/8Y5yD" frameborder="0" style="border:0;" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="col-lg-4" style="background-color: #DDD;">
+               <!-- Content for column 2 -->
+               <iframe class="embedded-looker" src="https://lookerstudio.google.com/embed/reporting/bca46301-d2a3-4eff-b438-0527a56ecb4f/page/p_enzj0h49gd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="col-lg-4" style="background-color: #CCC;">
+                <!-- Content for column 3 -->
+                <iframe  class="embedded-looker" src="https://lookerstudio.google.com/embed/reporting/bca46301-d2a3-4eff-b438-0527a56ecb4f/page/p_hsb96i49gd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
